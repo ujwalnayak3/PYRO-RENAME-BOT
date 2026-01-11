@@ -42,7 +42,7 @@ class Config(object):
     LOG_CHANNEL = int(os.environ.get("-1002621861088", True))
 
     # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", True))
+    WEBHOOK = bool(os.environ.get("WEBHOOK", False))
 
 
 
